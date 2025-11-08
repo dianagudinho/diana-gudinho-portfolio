@@ -15,6 +15,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Diana Minine Gudinho | Data Scientist & AI Specialist',
   description: 'Data Scientist with 4+ years of experience designing AI solutions. Expert in LLMs, RAG, and multi-agent systems.',
+  icons: {
+    icon: '/icon.svg',
+  },
 }
 
 export default function RootLayout({
